@@ -1,0 +1,219 @@
+/* ------------------------------nar开始--------------------------------------------- */
+/* 设置顶部菜单导航栏高度和背景色 */
+.nar {
+	height: 50px;
+	background-color: #3C3F3E;
+}
+/* 设置所有li标签左浮动，li属于块级标签 */
+.nar ul li {
+	float: left;
+	list-style: none;
+	height: 50px;
+	width: 100px;
+}
+/* 设置第九个li标签及之后的li标签右浮动 */
+.nar ul li:nth-child(n+9) {
+	float: right;
+	
+}
+/* 设置a标签 */
+.nar ul li a {
+	/* 去除链接的下划线 */
+	text-decoration: none;
+	margin-left: 15px;
+	/* 设置行高等于父级高度就可垂直居中 */
+	line-height: 50px;
+	color: white;
+}
+.nar ul li a:hover{
+	color: orange;
+}
+/* 设置第九个li标签及之后的a标签的左外边距 */
+.nar ul li:nth-child(n+9) a {
+	margin-left: 30px;
+}
+/* 设置左边第一个a标签的右外边距 */
+.nar ul:first-child() a {
+	/* 行内元素左右边距可以生效，但上下不生效 */
+	margin-left: 5px;
+}
+/* ---------------------------------nar设置完毕-------------------------------------------- */
+/* banner父盒子 */
+.banner{
+	height: 100px;
+	/* background-color:#282A29; */
+}
+/* logo盒子 */
+.h-logo{
+	float: left;
+	
+	
+}
+/* 设置logo的外边距 */
+.h-logo img{
+	margin-top: 20px;
+	margin-left: 15px;
+	 
+}
+/* 中间选项 */
+.nav-list{
+	float: left;
+	margin: 0 80px;
+	height: 100px;
+	width: 780px;
+	/* background-color: #FFFFFF; */
+}
+.nav-item{
+	list-style: none;
+	float: left;
+	height: 100px;
+	width: 110px;
+	text-align: center;
+	line-height: 100px;
+}
+.banner .text{
+	color: black;
+}
+.banner .text:hover{
+	color: orange;
+}
+.banner a{
+	text-decoration: none;
+}
+/* 搜索框 */
+form{
+	width: 200px;
+	height: 100px;
+	float: right;
+	margin-right: 30px;
+	/* 搜索框父亲居中了，搜索框也居中了 */
+	/* margin: 0 40px 0 0; */
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+	/* overflow: hidden; */
+}
+.mui-search{
+	
+	/* width: 1px; */
+	float: left ;
+	margin-top: 35px;
+	/* padding-top: 40px; */
+	
+}
+.simg{
+	float: right;
+	width: 30px;
+	margin-top: 32px;
+	margin-right: 35px;
+	/* padding-top: 35px; */
+	
+}
+.mui-input-clear{
+	width: 135px;
+	line-height: 30px;
+	text-align: center;
+	/* background-color: lightgray; */
+}
+/*----------- 轮播图 -------------*/
+.main_{
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	/* background-color:orange; */
+}
+.sidebar{
+	float: left;
+	/* margin-left: 20px; */
+	margin-right: 20px;
+	height: 500px;
+	width: 280px;
+	background-color:#9D9A9A;
+}
+.sidebar li{
+	list-style: none;
+	border-bottom: lightgrey;
+	border-bottom-style: solid;
+	padding-left: 80px;
+}
+.sidebar li a{
+	text-decoration: none;
+	color: white;
+	line-height: 3;
+	text-align: center;
+	/* margin-left: 50px; */
+}
+.sidebar li:hover{
+	background-color:#282C35;
+}
+.sidebar li a:hover{
+	color: orange;
+}
+.lunbo_{
+	float:left;
+	height: 500px;
+	width: 800px;
+	border: aliceblue;
+	border-style: dashed;
+	border-width: 2px;
+	/* background-color:green; */
+}
+/* -----------------------------------广告部分------------- */
+.banner2{
+	height: 150px;
+	width: 100%;
+}
+/* -------手机详情------ */
+.content{
+	height: 610px;
+	width: 1000px;
+	
+	/* background-color: aqua; */
+	margin: 0 auto;
+}
+.content ul li{
+	float: left;
+	list-style: none;
+	height: 290px;
+	width: 220px;
+	background-color: white;
+	margin-right: 30px;
+	margin-bottom:25px;
+	/* text-align: center; */
+	padding-top: 20px;
+	padding-left: 45px;
+}
+.content ul li img{
+	display: block;
+}
+.sj_htext{
+	line-height: 2;
+	/* text-align: center; */
+	margin-left:10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.sj_text{
+	line-height: 2;
+	margin-left:20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #B0B0B0;
+}
+.sj_jg{
+	line-height: 2;
+	margin-left:10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.sj_link{
+	line-height: 2;
+	text-decoration: none;
+	color:orange;
+	margin-left:18px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.content ul li a:hover{
+	background-color: aqua;
+	color: white;
+}
